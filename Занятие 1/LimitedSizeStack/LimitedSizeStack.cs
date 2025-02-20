@@ -4,9 +4,9 @@ namespace LimitedSizeStack;
 
 public class LimitedSizeStack<T>
 {
-    private T[] items
-    private int top = 0
-    private int count = 0
+    private T[] items;
+    private int top = 0;
+    private int count = 0;
     public LimitedSizeStack(int undoLimit)
     {
         items = new T[undoLimit];
